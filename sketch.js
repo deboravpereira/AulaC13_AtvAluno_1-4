@@ -74,11 +74,10 @@ function draw() {
 //função para gerar as nuvens
 function spawnClouds(){
  // escreva seu código aqui
- if (frameCount % 60 ===0){
+
  cloud=createSprite(600,100,40,10);
- cloud.addImage(cloudImg);
  cloud.velocityX=-3;
- }
+ 
 }
 
 
